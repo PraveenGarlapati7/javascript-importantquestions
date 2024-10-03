@@ -2,6 +2,7 @@ function swap(arr,i,j){
     [arr[i],arr[j]] = [arr[j],arr[i]];
 }
 
+//for every iteration, the largest number will be moved to the end
 function bubbleSort(arr){
     var noSwaps;
     for(let i = arr.length ; i > 0; i--){
